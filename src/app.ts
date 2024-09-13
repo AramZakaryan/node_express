@@ -9,7 +9,7 @@ app.use(cors())
 
 
 app.get('/', (req, res) => {
-    res.status(200).json({version: '1.0'})
+    res.status(200).json({version: '1.0.0'})
 })
 // app.get(SETTINGS.PATH.VIDEOS, getVideosController)
 app.use(SETTINGS.PATH.VIDEOS, videosRouter)
