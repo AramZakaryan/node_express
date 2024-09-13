@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import {SETTINGS} from "./settings";
-import {videosRouter} from "./videos/videosRouter";
+import {videosRouter} from "./videos";
 
 export const app = express()
 app.use(express.json())
